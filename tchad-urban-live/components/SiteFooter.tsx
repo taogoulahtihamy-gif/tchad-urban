@@ -1,0 +1,2 @@
+import Link from "next/link";
+export default function SiteFooter(){return <footer className="footer"><div className="footer-logo"><span className="brand-u">U</span><strong>TCHAD<br/>URBAN</strong></div><h2>UN NOUVEL ÉTAT<br/>D'ESPRIT <em>VISUEL.</em></h2><div className="footer-links"><Link href="/mur">Le mur</Link><Link href="/services">Services</Link><Link href="/commande">Commander</Link><Link href="/contact">Contact</Link></div><small>© 2026 Tchad Urban — N'Djamena, Tchad.</small></footer>}
